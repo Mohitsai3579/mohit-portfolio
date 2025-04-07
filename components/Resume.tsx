@@ -3,7 +3,7 @@
 import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { FaFileDownload } from 'react-icons/fa';
-import dynamic from 'next/dynamic';
+
 
 const Resume: FC = () => (
   <section

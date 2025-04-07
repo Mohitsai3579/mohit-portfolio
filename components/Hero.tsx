@@ -29,7 +29,7 @@ const Hero: FC = () => (
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.3 }}
     >
-      Hi, I'm Jonnadula Mohit Sai
+      Hi, I&apos;m Jonnadula Mohit Sai
     </motion.h1>
 
     <motion.div
