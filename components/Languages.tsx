@@ -29,7 +29,7 @@ const Languages: FC = () => (
       {[
         { name: 'Telugu', level: 'Native' },
         { name: 'English', level: 'Intermediate' },
-        { name: 'Hindi', level: 'Intermediate' },
+        { name: 'Hindi', level: 'Expert' },
       ].map((lang, index) => (
         <motion.li
           key={index}

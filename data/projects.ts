@@ -9,27 +9,46 @@ export type Project = {
   
   const projects: Project[] = [
     {
-      title: "SocialHub - Social Media App",
-      description: "A full-stack social media platform with real-time chat, posts, likes, and notifications.",
-      tech: ["Next.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
-      image: "/projects/socialhub.png",
-      link: "https://socialhub-demo.vercel.app",
-      github: "https://github.com/john/socialhub"
-    },
-    {
       title: "Football Club Manager",
       description: "A PHP + MySQL system for managing teams, matches, and player data with admin CRUD controls.",
       tech: ["PHP", "MySQL", "HTML", "Bootstrap"],
-      image: "/projects/football-manager.png",
-      github: "https://github.com/john/football-club-manager"
+      image: "image.png",
+      link:"https://mohitsai3579.github.io/foot-ball-website/",
+      github: "https://github.com/Mohitsai3579/foot-ball-website"
     },
     {
       title: "Portfolio Website",
       description: "This very website! Built using Next.js and Tailwind CSS, with dynamic sections and animations.",
       tech: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-      image: "/projects/portfolio.png",
-      github: "https://github.com/john/portfolio"
-    }
+      image: "port.png",
+      link:"https://mohit-portfolio-git-main-jonnadula-mohit-sais-projects.vercel.app/",
+      github: "https://github.com/Mohitsai3579/mohit-portfolio"
+    },
+    {
+      title: "SocialHub - Social Media App",
+      description: "A full-stack social media platform with real-time chat, posts, likes, and notifications.",
+      tech: ["Next.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "my.png",
+      link: "https://socialhub-demo.vercel.app",
+      github: "https://github.com/john/socialhub"
+    },
+    {
+      title: "Cleo-Acaemy",
+      description: "A full-stack Academy platform with real-time Courses Learning and notifications.",
+      tech: ["React.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "hello.png",
+      link: "mohitsai3579.github.io/Cleo-Academy/",
+      github: "https://github.com/Mohitsai3579/Cleo-Academy"
+    },
+    {
+      title: "Sense-Hackathon",
+      description: "A full-stack Academy platform with real-time Courses Learning and notifications.",
+      tech: ["React.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "sense.png",
+      link: "https://mohitsai3579.github.io/Sense-hackathon/",
+      github: "https://github.com/Mohitsai3579/Sense-hackathon"
+    },
+    
   ];
   
   export default projects;

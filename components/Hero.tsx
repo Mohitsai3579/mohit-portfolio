@@ -36,7 +36,7 @@ const Hero: FC = () => (
       className="text-xl md:text-2xl text-gray-300 max-w-xl font-medium h-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.5, delay: 1 }}
+      transition={{ duration: 0.1, delay: 1}}
     >
       <TypewriterLoop
         texts={[
@@ -46,9 +46,9 @@ const Hero: FC = () => (
           'Creative Thinker',
           'Team Player'
         ]}
-        speed={100}
-        pause={1500}
-        deleteSpeed={50}
+        speed={10}
+        pause={100}
+        deleteSpeed={10}
       />
     </motion.div>
 
@@ -78,7 +78,7 @@ const TypewriterLoop: FC<{
   speed?: number;
   pause?: number;
   deleteSpeed?: number;
-}> = ({ texts, speed = 100, pause = 1500, deleteSpeed = 50 }) => {
+}> = ({ texts, speed = 10, pause = 1500, deleteSpeed = 10 }) => {
   const [currentTextIndex, setCurrentTextIndex] = React.useState(0);
   const [displayedText, setDisplayedText] = React.useState('');
   const [isDeleting, setIsDeleting] = React.useState(false);

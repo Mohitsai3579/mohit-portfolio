@@ -36,7 +36,7 @@ const AboutMe: FC = () => (
 
       <div className="text-lg text-gray-300 leading-8 md:text-left text-center">
         <p>
-          Hi! I&apos;m<strong className="text-purple-400">Jonnadula Mohit Sai</strong>, a
+          Hi! I&apos;m <strong className="text-purple-400">Jonnadula Mohit Sai</strong>, a
           passionate Computer Science student at <strong>LBRCE</strong> with a strong enthusiasm for
           problem solving, modern web development, and exploring emerging tech. I love building
           meaningful projects, collaborating with teams, and learning through hands-on experiences.

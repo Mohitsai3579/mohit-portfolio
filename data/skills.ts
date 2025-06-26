@@ -4,6 +4,9 @@ export type Skill = {
   };
   
   const skills: Skill[] = [
+    { name:"C", icon:"devicon-c-plain colored"},
+    { name:"JAVA", icon:"devicon-java-plain colored"},
+    { name:"Python", icon:"devicon-python-plain colored"},
     { name: "HTML5", icon: "devicon-html5-plain colored" },
     { name: "CSS3", icon: "devicon-css3-plain colored" },
     { name: "JavaScript", icon: "devicon-javascript-plain colored" },

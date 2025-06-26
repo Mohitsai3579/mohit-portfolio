@@ -4,7 +4,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Copyright: FC = () => (
   <motion.footer
-    className="w-full text-center py-6 text-gray-400 text-sm border-t border-white/10 mt-10"
+    className="w-full text-center py-6 text-gray-400 text-sm border-t border-white/10 mt-1"
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}

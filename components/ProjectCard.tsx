@@ -61,17 +61,18 @@ const ProjectCard: FC<Props> = ({ project }) => {
         </motion.div>
 
         <div className="flex gap-6 text-sm font-semibold">
-          {project?.link && (
-            <motion.a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-white transition-all duration-300"
-              whileHover={{ scale: 1.1 }}
+
+          
+          <motion.a
+            href={project?.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-white transition-all duration-300"
+            whileHover={{ scale: 1.1 }}
             >
               🔗 Live
-            </motion.a>
-          )}
+           </motion.a>
+          
           <motion.a
             href={project?.github}
             target="_blank"
