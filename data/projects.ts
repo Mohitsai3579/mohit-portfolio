@@ -57,6 +57,14 @@ export type Project = {
       link: "https://mohitsai3579.github.io/cafe-management/",
       github: "https://github.com/Mohitsai3579/cafe-management"
     },
+    {
+      title: "Bus-live Tracking",
+      description: "A full-stack bus live tracking platform with real-time location updates and notifications.",
+      tech: ["React.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "Bus.png",
+      link: "https://mohitsai3579.github.io/bus-live-tracking/",
+      github: "https://github.com/Mohitsai3579/bus-live-tracking"
+    },
   ];
   
   export default projects;
