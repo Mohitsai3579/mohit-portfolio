@@ -48,6 +48,14 @@ export type Project = {
       link: "https://mohitsai3579.github.io/Sense-hackathon/",
       github: "https://github.com/Mohitsai3579/Sense-hackathon"
     },
+    {
+      title: "PostIt - Social Media App",
+      description: "A full-stack social media platform with real-time chat, posts, likes, and notifications.",
+      tech: ["React.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "postIt.png",
+      link: "https://mohitsai3579.github.io/social-media/",
+      github: "https://github.com/Mohitsai3579/social-media"
+    },
     
   ];
   
