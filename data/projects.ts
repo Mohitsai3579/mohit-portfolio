@@ -49,7 +49,14 @@ export type Project = {
       link: "https://mohitsai3579.github.io/social-media/",
       github: "https://github.com/Mohitsai3579/social-media"
     },
-    
+     {
+      title: "Cafe-Management",
+      description: "A full-stack cafe management platform with real-time order tracking and notifications.",
+      tech: ["React.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
+      image: "Cafe.jpg",
+      link: "https://mohitsai3579.github.io/cafe-management/",
+      github: "https://github.com/Mohitsai3579/cafe-management"
+    },
   ];
   
   export default projects;
