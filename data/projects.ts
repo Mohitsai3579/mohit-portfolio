@@ -24,14 +24,7 @@ export type Project = {
       link:"https://mohit-portfolio-git-main-jonnadula-mohit-sais-projects.vercel.app/",
       github: "https://github.com/Mohitsai3579/mohit-portfolio"
     },
-    {
-      title: "SocialHub - Social Media App",
-      description: "A full-stack social media platform with real-time chat, posts, likes, and notifications.",
-      tech: ["Next.js", "Tailwind CSS", "MongoDB", "Socket.IO"],
-      image: "my.png",
-      link: "https://socialhub-demo.vercel.app",
-      github: "https://github.com/john/socialhub"
-    },
+    
     {
       title: "Cleo-Acaemy",
       description: "A full-stack Academy platform with real-time Courses Learning and notifications.",
