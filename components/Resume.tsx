@@ -38,7 +38,7 @@ const Resume: FC = () => (
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
       <iframe
-        src="/resume.pdf"
+        src="/Mohit_0.pdf"
         className="w-full h-[600px]"
         title="Resume Preview"
       ></iframe>
